@@ -1,0 +1,268 @@
+@import url('https://fonts.googleapis.com/css2?family=Source+Serif+Pro:wght@300&display=swap');
+
+body,html{
+    width: 100%;
+    height: 100%;
+}
+.body{
+    font-family: 'Source Serif Pro', serif;
+    background-color: #1a1a2e;
+}
+.topnav {
+    overflow: hidden;
+    background-color:#1a1a2e;
+  }
+  
+  .topnav a {
+    float: left;
+    display: block;
+    color: #f2f2f2;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 17px;
+  }
+  
+  .topnav a:hover {
+    background-color: #282441;
+    color: black;
+  }
+  .topnav a btn:hover {
+    color: white;
+  }
+  .topnav a.active {
+    background-color: #3217e6;
+    color: white;
+  }
+  
+  .topnav .icon {
+    display: none;
+  }
+  
+  @media screen and (max-width: 600px) {
+    .topnav a:not(:first-child) {display: none;}
+    .topnav a.icon {
+      float: right;
+      display: block;
+    }
+  }
+  
+  @media screen and (max-width: 600px) {
+    .topnav.responsive {position: relative;}
+    .topnav.responsive .icon {
+      position: absolute;
+      right: 0;
+      top: 0;
+    }
+    .topnav.responsive a {
+      float: none;
+      display: block;
+      text-align: left;
+    }
+  }
+  .input-group{
+    padding: 1%;
+  }
+  .input-group input{
+    float: left;
+    margin-left: 8PX;
+    background-color: #1a1a2e;
+    width: 90%;
+    opacity: 110%;
+    font-family:Californian FB;
+    text-align: left;
+    color: white;
+    border-radius: 0.2px;
+    border-color: aliceblue;
+    border-top-style: hidden;
+    border-right-style: hidden;
+    border-left-style: hidden;
+    border-bottom-style: groove;
+    
+  }
+  .input-group input:focus{
+    outline: none;
+}
+
+  .carouselExampleFade{
+      height: 40%;
+      width: 95%;
+  }
+  /*slide*/
+   /* Slideshow container */
+   .slideshow-container {
+    margin-top: 20px;
+    max-width: 70%;
+    position: relative;
+    margin: auto;
+  }
+
+  /* Caption text */
+  .text {
+    color: #f2f2f2;
+    font-size: 15px;
+    padding: 8px 12px;
+    position: absolute;
+    bottom: 8px;
+    width: 100%;
+    text-align: center;
+  }
+
+  /* Number text (1/3 etc) */
+  .numbertext {
+    color: #f2f2f2;
+    font-size: 50px;
+    padding: 8px 12px;
+    position: absolute;
+    top: 0;
+  }
+
+  /* The dots/bullets/indicators */
+  .dot {
+    height: 15px;
+    width: 15px;
+    margin: 0 2px;
+    background-color: #bbb;
+    border-radius: 50%;
+    display: inline-block;
+    transition: background-color 6s ease;
+  }
+
+  .active {
+    background-color: #000000;
+  }
+
+  /* Fading animation */
+  .fade {
+    -webkit-animation-name: fade;
+    -webkit-animation-duration: 1.5s;
+    animation-name: fade;
+    animation-duration: 15s;
+  }
+
+  
+
+  @keyframes fade {
+    from {opacity:1 } 
+    to {opacity: 5}
+  }
+
+  /* On smaller screens, decrease text size */
+  @media only screen and (max-width: 300px) {
+    .text {font-size: 11px}
+  }
+  .slider_heading{
+      font-size: 100px;
+      text-transform: uppercase;
+      font-weight: bold;
+  }
+
+  /*----------*/
+  
+  .container{
+      margin: 2% 2% 0% 3%;
+
+  }
+  .Movies img{
+      margin-right: 1%;
+      margin-bottom: 10%;
+      border-radius: 10px;
+      width: 100%;
+      cursor: pointer;
+      box-shadow: -4px 4px 5px #000;
+      transition: 0.8s;
+      
+
+  }
+  .Movies img:hover{
+      transform: translateY(-10px);
+      box-shadow:0 19px 38px rgb(0, 0,0,0.3),0 15px 12px rgb(0, 0, 0,0.22);
+     }
+     .container h2{
+
+        margin-bottom: 2%;
+        color:#f3e6e3 ;
+
+     }
+     .slider_a{
+        text-align: center;
+        color: #ddd;
+        text-decoration: none;
+        font-size: 20px;
+        font-weight: bold;
+        font-family: 'Source Serif Pro', serif;
+
+     }
+     .Movies a{
+        color: #ddd;
+        text-decoration: none;
+        font-size: large;
+        font-weight: bold;
+        font-family: 'Source Serif Pro', serif;
+     }
+     /*footer*/
+     .footer-top{
+      background: #111;
+      padding: 80px 0;
+
+
+    }
+    .segment-one h3{
+      font-family: courgette;
+      color: #fff;
+      letter-spacing: 3px;
+      margin: 10px 0;
+
+    }
+    .segment-one ul{
+      padding: 0;
+      margin: 0;
+      list-style: none;
+    }
+    .segment-one ul li a{
+      color:white;
+
+    }
+    
+    .segment-two h2{
+      color: #fff;
+      font-family: Poppins;
+      text-transform: uppercase;
+
+    }
+    .segment-two ul{
+      padding: 0;
+      margin: 0;
+      list-style: none;
+    }
+    .segment-two ul li a{
+      color: white;
+
+    }
+    .segment-three h3{
+      color: #fff;
+      font-family: Poppins;
+      
+    }
+    .segment-three ul{
+      padding: 0;
+      margin: 0;
+      list-style: none;
+    }
+    .segment-three ul li a{
+      color: white;
+
+    }
+    a{
+      color: white;
+      font-family: Georgia, 'Times New Roman', Times, serif;
+      font-size: small;
+    }
+    .para{
+      color: white;
+    }
+    .heading3{
+      color: white;
+    }
+                                      
+                    
